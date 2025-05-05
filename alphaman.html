@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .father div{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        
+    }
+    .father{
+        background-color: rgb(86, 106, 86);
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        width: 1000px;
+    }
+    @media screen and (max-width:600px){
+        .father{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <DIV class="father">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </DIV>
+</body>
+</html>
